@@ -1,0 +1,14 @@
+Source: superx-fonts
+Section: fonts
+Priority: optional
+Maintainer: Wrishiraj Kaushik <wrix@superxos.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+
+Package: superx-fonts
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: Collection of fonts for SuperX
+ This package contains OpenSans and Source Sans Pro fonts.
