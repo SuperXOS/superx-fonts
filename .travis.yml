@@ -1,5 +1,4 @@
-install:
-    - debhelper
-    - fakeroot
+before_install:
+    - apt install -y debhelper
 script:
     - dpkg-buildpackage
