@@ -1,4 +1,4 @@
 before_install:
-    - apt install -y debhelper
+    - sudo apt install -y debhelper fakeroot
 script:
     - dpkg-buildpackage
