@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  build-deb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: legoktm/gh-action-build-deb@debian-bullseye
+        id: build-debian-bullseye
+        with:
+          args: -us -uc  
